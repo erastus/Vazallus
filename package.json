@@ -1,0 +1,24 @@
+{
+  "name": "Vazallus",
+  "version": "0.1.0",
+  "description": "Vazallus (Win64)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node bin/server"
+  },
+  "author": "erastus",
+  "license": "MIC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.23.0",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-express-server": "^0.5.4",
+    "load-grunt-tasks": "^5.1.0",
+    "shelljs": "^0.8.5"
+  }
+}
